@@ -36,7 +36,7 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) => {
       <a href="#contact" onClick={() => setMenuOpen(false)} className={`text-3xl my-2 font-semibold text-red-500 transform transition-transform duration-300  hover:text-black
         ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}
       `}>
-        Contact
+        Resume
       </a>
 
     </div>

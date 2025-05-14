@@ -24,7 +24,7 @@ export const Home = () => {
           </a>
           <a href="#contact" className="font-semibold border border-red-500 text-red-500 py-3 px-6 rounded font-medium transition-all duration-200 
           hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-red-500 hover:text-white">
-            Contact Me
+            My Resume
           </a>
         </div>
       </div>
