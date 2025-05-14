@@ -42,7 +42,10 @@ export const Contact = () => {
 
       <RevealOnScroll>
         <div className="px-4 w-100 md:w-xl">
-          <h2 className="text-6xl p-3 text-center font-bold mb-8 bg-gradient-to-r from-white to-red-600 bg-clip-text text-transparent"> Contact Me </h2>
+          <h2 className="text-6xl p-3 text-center font-bold mb-8 bg-gradient-to-r from-white to-red-600 bg-clip-text text-transparent"> Download My Resume </h2>
+          <button id="downloadBtn" value="download" className="cursor-pointer w-full bg-red-500 text-white py-3 px-6 rounded font-semibold font-medium transition relative overflow-hidden
+            hover:-translate-y-0.5" onClick={downloadResume}>Download</button>
+          {/*
           <form action="submit" className="space-y-6" onSubmit={handleSubmit}>
             <div className="relative">
               <input type="text" id="name" name="name" required 
@@ -64,9 +67,9 @@ export const Contact = () => {
             </div>
             <button type="submit" className="cursor-pointer w-full bg-red-500 text-white py-3 px-6 rounded font-semibold font-medium transition relative overflow-hidden
             hover:-translate-y-0.5">Send Message</button>
-            <button id="downloadBtn" value="download" className="cursor-pointer w-full bg-red-500 text-white py-3 px-6 rounded font-semibold font-medium transition relative overflow-hidden
-            hover:-translate-y-0.5" onClick={downloadResume}>Download My Resume</button>
+            
           </form>
+          */}
         </div>
       </RevealOnScroll>
 
