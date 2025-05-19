@@ -12,7 +12,7 @@ export const Contact = () => {
 
   const downloadResume = () => {
     const link = document.createElement('a');
-    link.href = './David_Jordan_-_Software_Developer.pdf';
+    link.href = './David_Jordan_-_Frontend_Engineer.pdf';
     link.download = 'David_Jordan_Resume.pdf'; // Replace with the desired file name
     document.body.appendChild(link);
     link.click();
