@@ -85,6 +85,17 @@ export const About = () => {
                   </li>
                 </div>
               </div>
+              <div className="space-y-4 text-white">
+                <div>
+                  <h4 className="font-bold mb-2 text-red-200"> Frontend Apprenticeship @ ECU (Aug 2023 - Jan 2024) </h4>
+                  <li> 
+                   Mentored under Senior Frontend Developer to develop and learn best software engineer practices 
+                  </li>
+                  <li> 
+                    Gained proficiency in technical Frontend skills such as HTML, CSS, JavaScript, BootStrap, and Python 
+                  </li>
+                </div>
+              </div>
           </div>
         </div>
         

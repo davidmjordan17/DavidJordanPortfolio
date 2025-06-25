@@ -1,4 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll"
+import { ExternalLink } from 'lucide-react';
 
 export const Projects = () => {
   return (
@@ -14,12 +15,12 @@ export const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
           <div className="p-6 rounded-xl bg-red-800 hover:-translate-y-1 transition-all">
-            <h3 className="text-3xl font-bold mb-2 text-red-100"> Freshtrack </h3>
+            <h3 className="text-3xl font-bold mb-2 text-red-100"> Cinenode </h3>
             <p className="text-white mb-4"> 
-              FreshTrack is a web application designed to reduce food waste and simplify kitchen organization by helping users track their groceries and expiration dates.
+              Interactive web game that makes users to connect two movies by navigating through shared cast members. Leverages real movie and actor data from the TMDb API to create a fun and engaging test of film knowledge.
             </p>
             <div>
-              {["HTML", "CSS", "JavaScript", "Python", "Flask", "Bootstrap"].map((tech, key) => (
+              {["React", "TailwindCSS", "JavaScript", "Express.js", "Axios", "Vercel"].map((tech, key) => (
                 <span key={key} className="bg-red-500 text-white py-1 px-0.5 md:px-2 mr-1 rounded-full text-xs md:text-sm
                 hover:bg-black hover:shadow-[0_2px_8px_rbga(59,130,2246,.2)] transition">
                   {tech}
@@ -27,8 +28,8 @@ export const Projects = () => {
               ))}
             </div>
             <div>
-              <a href="https://github.com/davidmjordan17/CSCI4710_Group2/tree/main/FinalProject" target="_blank">
-                <img src="./github.png" alt="github logo" className="max-w-12 h-auto mt-4 hover:invert hover:-translate-y-1 transition all"/>
+              <a href="https://github.com/davidmjordan17/Cinenode" target="_blank">
+                <ExternalLink className="max-w-12 text-white h-auto mt-4 hover:invert hover:-translate-y-1 transition all"/>
               </a>
             </div>
           </div>
@@ -64,17 +65,17 @@ export const Projects = () => {
             </div>
             <div>
               <a href="https://github.com/davidmjordan17/Weather_App" target="_blank">
-                <img src="./github.png" alt="github logo" className="max-w-12 h-auto mt-4 hover:invert hover:-translate-y-1 transition all"/>
+                <ExternalLink className="max-w-12 text-white h-auto mt-4 hover:invert hover:-translate-y-1 transition all"/>
               </a>
             </div>
           </div>
           <div className="p-6 rounded-xl bg-red-800 hover:-translate-y-1 transition-all">
-            <h3 className="text-3xl font-bold mb-2 text-red-100"> Rock Paper Scissors Game </h3>
+            <h3 className="text-3xl font-bold mb-2 text-red-100"> Freshtrack </h3>
             <p className="text-white mb-4"> 
-              Interactive Rock Paper Scissors game built using HTML, CSS, and JavaScript.
+              FreshTrack is a web application designed to reduce food waste and simplify kitchen organization by helping users track their groceries and expiration dates.
             </p>
             <div>
-              {["HTML", "CSS", "JavaScript"].map((tech, key) => (
+              {["HTML", "CSS", "JavaScript", "Python", "Flask", "Bootstrap"].map((tech, key) => (
                 <span key={key} className="bg-red-500 text-white py-1 px-0.5 md:px-2 mr-1 rounded-full text-xs md:text-sm
                 hover:bg-black hover:shadow-[0_2px_8px_rbga(59,130,2246,.2)] transition">
                   {tech}
@@ -82,8 +83,8 @@ export const Projects = () => {
               ))}
             </div>
             <div>
-              <a href="https://github.com/davidmjordan17/Rock-Paper-Scissors" target="_blank">
-                <img src="./github.png" alt="github logo" className="max-w-12 h-auto mt-4 hover:invert hover:-translate-y-1 transition all"/>
+              <a href="https://github.com/davidmjordan17/CSCI4710_Group2/tree/main/FinalProject" target="_blank">
+                <ExternalLink className="max-w-12 text-white h-auto mt-4 hover:invert hover:-translate-y-1 transition all"/>
               </a>
             </div>
           </div>
