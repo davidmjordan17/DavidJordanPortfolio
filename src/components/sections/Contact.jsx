@@ -12,8 +12,8 @@ export const Contact = () => {
 
   const downloadResume = () => {
     const link = document.createElement('a');
-    link.href = './David_Jordan_-_Frontend_Engineer.pdf';
-    link.download = 'DavidJordan_FrontendEngineer.pdf'; // Replace with the desired file name
+    link.href = './DavidJordan_RESUME.pdf'; // Ensure the path is correct relative to your public folder
+    link.download = 'DavidJordan_RESUME.pdf'; // Replace with the desired file name
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
