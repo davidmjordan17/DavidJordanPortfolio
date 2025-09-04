@@ -56,7 +56,7 @@ export const About = () => {
                   <strong>B.S. in Computer Science </strong> - East Carolina University (2021-2025)
                 </li>
                 <li>
-                  <strong>M.S in Software Engineering </strong> - East Carolina University (2026-)
+                  <strong>M.S in Computer Science </strong> - Georgia Tech University (2025-2027)
                 </li>
               </ul>
           </div>
@@ -64,32 +64,28 @@ export const About = () => {
               <h3 className="text-2xl font-bold mb-4 text-white text-center">Experience</h3>
               <div className="space-y-6 text-white">
                 <div>
-                  <h4 className="font-bold mb-2 text-red-200"> Frontend Engineer @ Leathershield Education (Jan 2025 - June 2025) </h4>
+                  <h4 className="font-bold mb-2 text-red-200"> Frontend Developer Intern (Jan 2025 - June 2025) </h4>
                   <li> 
-                    Built a scalable web application using React, TypeScript, Stripe, and Firebase.
+                    Built and deployed a responsive online course platform using React, TypeScript, TailwindCSS, Firebase, and Stripe, enabling 
+the company’s first digital product launch and increasing inbound inquiries by 20% 
                   </li>
                 </div>
               </div>
               <div className="space-y-4 text-white">
                 <div>
-                  <h4 className="font-bold mb-2 text-red-200"> IT Intern @ Cabarrus County Gov (June 2024 - August 2024) </h4>
+                  <h4 className="font-bold mb-2 text-red-200"> Web Developer Intern @ Cabarrus County Gov (June 2024 - August 2024) </h4>
                   <li> 
-                    Assisted with web applications UI with software development team with React front-end
-                  </li>
-                  <li> 
-                    Helped with connectivity issues by collaborating with the networking team on 
-                    system infrastructure configurations
-                  </li>
-                  <li> 
-                    Provided Tier 1 technical support for 150+ employees
+                    Upgraded internal government web applications by redesigning UI components and implementing accessible HTML/CSS/JS 
+practices 
                   </li>
                 </div>
               </div>
               <div className="space-y-4 text-white">
                 <div>
-                  <h4 className="font-bold mb-2 text-red-200"> Frontend Apprenticeship @ ECU (Aug 2023 - Jan 2024) </h4>
+                  <h4 className="font-bold mb-2 text-red-200"> Frontend Apprenticeship @ Crossfit (Aug 2023 - Jan 2024) </h4>
                   <li> 
-                   Mentored under Senior Frontend Developer to develop and learn best software engineer practices 
+                   Engaged in regular code reviews and pair programming sessions with a senior developer to refine clean code practices and Git 
+workflow 
                   </li>
                   <li> 
                     Gained proficiency in technical Frontend skills such as HTML, CSS, JavaScript, BootStrap, and Python 
